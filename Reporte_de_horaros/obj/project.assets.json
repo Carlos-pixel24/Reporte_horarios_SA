@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Carlos\\source\\repos\\Reporte_de_horaros\\Reporte_de_horaros.csproj",
+      "projectUniqueName": "C:\\Users\\Carlos\\Documents\\GitHub\\Reporte_horarios_SA\\Reporte_de_horaros\\Reporte_de_horaros.csproj",
       "projectName": "Reporte_de_horaros",
-      "projectPath": "C:\\Users\\Carlos\\source\\repos\\Reporte_de_horaros\\Reporte_de_horaros.csproj",
+      "projectPath": "C:\\Users\\Carlos\\Documents\\GitHub\\Reporte_horarios_SA\\Reporte_de_horaros\\Reporte_de_horaros.csproj",
       "packagesPath": "C:\\Users\\Carlos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Carlos\\source\\repos\\Reporte_de_horaros\\obj\\",
+      "outputPath": "C:\\Users\\Carlos\\Documents\\GitHub\\Reporte_horarios_SA\\Reporte_de_horaros\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
