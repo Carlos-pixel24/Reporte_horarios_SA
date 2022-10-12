@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MXn1PZivMv6KOgCOhhW3v9iyZmUG6bsasxtCWIow9532QVRrjfW7Tw7RFNp4IEeaVjOTdPKeMfVyexrOwFzPtA==",
+  "dgSpecHash": "rHWZreI/ghBrVud0byLBj/GLtubYSlunyDu6ZDN5W+woh5QH2zueklYQPJZLV33y9MTzad8ZiuVrlxZpoeonmw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Carlos\\Documents\\GitHub\\Reporte_horarios_SA\\Reporte_de_horaros\\Reporte_de_horaros.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\DELL\\AndroidStudioProjects\\Github\\Reporte_horarios_SA\\Reporte_de_horaros\\Reporte_de_horaros.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.forms\\5.0.0.2515\\xamarin.forms.5.0.0.2515.nupkg.sha512"
+  ],
   "logs": []
 }
