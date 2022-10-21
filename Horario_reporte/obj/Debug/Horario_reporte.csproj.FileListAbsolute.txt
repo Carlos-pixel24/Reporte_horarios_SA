@@ -1,0 +1,12 @@
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\bin\Debug\Horario_reporte.exe.config
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\bin\Debug\Horario_reporte.exe
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\bin\Debug\Horario_reporte.pdb
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.csproj.AssemblyReference.cache
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.csproj.SuggestedBindingRedirects.cache
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.Form1.resources
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.Index.resources
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.Properties.Resources.resources
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.csproj.GenerateResource.cache
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.csproj.CoreCompileInputs.cache
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.exe
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.pdb
