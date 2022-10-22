@@ -67,13 +67,21 @@ namespace Horario_reporte
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+
+
+
+            Clases.CN objetoconexion = new Clases.CN();
+            objetoconexion.iniciarCN();
+
+
             //ESTE ES EL CODIGO PARA PASAR DE UN FORM A OTRO
             //Y CERRAR EL ANTERIOR FORM
 
-            Index index = new Index();
+           /* Index index = new Index();
             index.Show();
 
-            this.Hide();
+            this.Hide();*/
 
             //  NOTA
             //  ESTA TRANSICION DE LOGIN A INDEX SE DEBE DE ACITVAR
