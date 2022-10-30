@@ -27,3 +27,10 @@ C:\Users\Carlos\Documents\GitHub\Reporte_horarios_SA\Horario_reporte\obj\Debug\H
 C:\Users\Carlos\Documents\GitHub\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.csproj.CopyComplete
 C:\Users\Carlos\Documents\GitHub\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.exe
 C:\Users\Carlos\Documents\GitHub\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.pdb
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\bin\Debug\UIDC.dll
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\bin\Debug\System.Memory.dll
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\bin\Debug\System.Buffers.dll
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.csproj.CopyComplete
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.PanelHorarios.resources
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.PanelMenu.resources
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.Ventana_Horario.resources

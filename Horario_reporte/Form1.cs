@@ -78,10 +78,10 @@ namespace Horario_reporte
             //ESTE ES EL CODIGO PARA PASAR DE UN FORM A OTRO
             //Y CERRAR EL ANTERIOR FORM
 
-           /* Index index = new Index();
+            Index index = new Index();
             index.Show();
 
-            this.Hide();*/
+            this.Hide();
 
             //  NOTA
             //  ESTA TRANSICION DE LOGIN A INDEX SE DEBE DE ACITVAR

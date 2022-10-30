@@ -60,19 +60,17 @@
             this.pVerde.Controls.Add(this.pbLogo);
             this.pVerde.Dock = System.Windows.Forms.DockStyle.Left;
             this.pVerde.Location = new System.Drawing.Point(0, 0);
-            this.pVerde.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pVerde.Name = "pVerde";
-            this.pVerde.Size = new System.Drawing.Size(244, 389);
+            this.pVerde.Size = new System.Drawing.Size(183, 316);
             this.pVerde.TabIndex = 0;
             // 
             // pbLogo
             // 
             this.pbLogo.BackColor = System.Drawing.Color.Transparent;
             this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
-            this.pbLogo.Location = new System.Drawing.Point(16, 121);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbLogo.Location = new System.Drawing.Point(12, 98);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(199, 143);
+            this.pbLogo.Size = new System.Drawing.Size(149, 116);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 0;
             this.pbLogo.TabStop = false;
@@ -91,10 +89,9 @@
             this.pBlanco.Controls.Add(this.pbCerrar);
             this.pBlanco.Controls.Add(this.lbFocus);
             this.pBlanco.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pBlanco.Location = new System.Drawing.Point(244, 0);
-            this.pBlanco.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pBlanco.Location = new System.Drawing.Point(183, 0);
             this.pBlanco.Name = "pBlanco";
-            this.pBlanco.Size = new System.Drawing.Size(707, 389);
+            this.pBlanco.Size = new System.Drawing.Size(530, 316);
             this.pBlanco.TabIndex = 1;
             // 
             // BTNLogin
@@ -107,10 +104,9 @@
             this.BTNLogin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(165)))), ((int)(((byte)(133)))));
             this.BTNLogin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTNLogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.BTNLogin.Location = new System.Drawing.Point(295, 266);
-            this.BTNLogin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BTNLogin.Location = new System.Drawing.Point(221, 216);
             this.BTNLogin.Name = "BTNLogin";
-            this.BTNLogin.Size = new System.Drawing.Size(215, 53);
+            this.BTNLogin.Size = new System.Drawing.Size(161, 43);
             this.BTNLogin.TabIndex = 9;
             this.BTNLogin.Text = "ACCEDER";
             this.BTNLogin.UseVisualStyleBackColor = false;
@@ -119,10 +115,9 @@
             // pcPass
             // 
             this.pcPass.Image = ((System.Drawing.Image)(resources.GetObject("pcPass.Image")));
-            this.pcPass.Location = new System.Drawing.Point(103, 178);
-            this.pcPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pcPass.Location = new System.Drawing.Point(77, 145);
             this.pcPass.Name = "pcPass";
-            this.pcPass.Size = new System.Drawing.Size(40, 37);
+            this.pcPass.Size = new System.Drawing.Size(30, 30);
             this.pcPass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcPass.TabIndex = 8;
             this.pcPass.TabStop = false;
@@ -130,10 +125,9 @@
             // pcUser
             // 
             this.pcUser.Image = ((System.Drawing.Image)(resources.GetObject("pcUser.Image")));
-            this.pcUser.Location = new System.Drawing.Point(103, 113);
-            this.pcUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pcUser.Location = new System.Drawing.Point(77, 92);
             this.pcUser.Name = "pcUser";
-            this.pcUser.Size = new System.Drawing.Size(40, 37);
+            this.pcUser.Size = new System.Drawing.Size(30, 30);
             this.pcUser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pcUser.TabIndex = 7;
             this.pcUser.TabStop = false;
@@ -141,10 +135,9 @@
             // pbLinepass
             // 
             this.pbLinepass.Image = ((System.Drawing.Image)(resources.GetObject("pbLinepass.Image")));
-            this.pbLinepass.Location = new System.Drawing.Point(151, 213);
-            this.pbLinepass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbLinepass.Location = new System.Drawing.Point(113, 173);
             this.pbLinepass.Name = "pbLinepass";
-            this.pbLinepass.Size = new System.Drawing.Size(411, 2);
+            this.pbLinepass.Size = new System.Drawing.Size(308, 2);
             this.pbLinepass.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbLinepass.TabIndex = 6;
             this.pbLinepass.TabStop = false;
@@ -152,10 +145,9 @@
             // pbLineuser
             // 
             this.pbLineuser.Image = ((System.Drawing.Image)(resources.GetObject("pbLineuser.Image")));
-            this.pbLineuser.Location = new System.Drawing.Point(151, 148);
-            this.pbLineuser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbLineuser.Location = new System.Drawing.Point(113, 120);
             this.pbLineuser.Name = "pbLineuser";
-            this.pbLineuser.Size = new System.Drawing.Size(411, 2);
+            this.pbLineuser.Size = new System.Drawing.Size(308, 2);
             this.pbLineuser.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pbLineuser.TabIndex = 5;
             this.pbLineuser.TabStop = false;
@@ -166,10 +158,9 @@
             this.txtPass.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtPass.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.txtPass.ForeColor = System.Drawing.Color.OliveDrab;
-            this.txtPass.Location = new System.Drawing.Point(151, 181);
-            this.txtPass.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPass.Location = new System.Drawing.Point(113, 147);
             this.txtPass.Name = "txtPass";
-            this.txtPass.Size = new System.Drawing.Size(415, 25);
+            this.txtPass.Size = new System.Drawing.Size(311, 20);
             this.txtPass.TabIndex = 1;
             this.txtPass.Text = "Contraseña";
             this.txtPass.Enter += new System.EventHandler(this.txtPass_Enter);
@@ -181,10 +172,9 @@
             this.txtUser.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.txtUser.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.txtUser.ForeColor = System.Drawing.Color.OliveDrab;
-            this.txtUser.Location = new System.Drawing.Point(151, 116);
-            this.txtUser.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUser.Location = new System.Drawing.Point(113, 94);
             this.txtUser.Name = "txtUser";
-            this.txtUser.Size = new System.Drawing.Size(415, 25);
+            this.txtUser.Size = new System.Drawing.Size(311, 20);
             this.txtUser.TabIndex = 0;
             this.txtUser.Text = "Usuario";
             this.txtUser.Enter += new System.EventHandler(this.txtUser_Enter);
@@ -195,20 +185,18 @@
             this.lbBienvenido.AutoSize = true;
             this.lbBienvenido.Font = new System.Drawing.Font("Century Gothic", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbBienvenido.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(51)))));
-            this.lbBienvenido.Location = new System.Drawing.Point(257, 26);
-            this.lbBienvenido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbBienvenido.Location = new System.Drawing.Point(193, 21);
             this.lbBienvenido.Name = "lbBienvenido";
-            this.lbBienvenido.Size = new System.Drawing.Size(203, 40);
+            this.lbBienvenido.Size = new System.Drawing.Size(161, 32);
             this.lbBienvenido.TabIndex = 2;
             this.lbBienvenido.Text = "Bienvenid@";
             // 
             // pbMinimizar
             // 
             this.pbMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("pbMinimizar.Image")));
-            this.pbMinimizar.Location = new System.Drawing.Point(631, 4);
-            this.pbMinimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbMinimizar.Location = new System.Drawing.Point(473, 3);
             this.pbMinimizar.Name = "pbMinimizar";
-            this.pbMinimizar.Size = new System.Drawing.Size(29, 27);
+            this.pbMinimizar.Size = new System.Drawing.Size(22, 22);
             this.pbMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbMinimizar.TabIndex = 1;
             this.pbMinimizar.TabStop = false;
@@ -217,10 +205,9 @@
             // pbCerrar
             // 
             this.pbCerrar.Image = ((System.Drawing.Image)(resources.GetObject("pbCerrar.Image")));
-            this.pbCerrar.Location = new System.Drawing.Point(673, 4);
-            this.pbCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbCerrar.Location = new System.Drawing.Point(505, 3);
             this.pbCerrar.Name = "pbCerrar";
-            this.pbCerrar.Size = new System.Drawing.Size(29, 27);
+            this.pbCerrar.Size = new System.Drawing.Size(22, 22);
             this.pbCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbCerrar.TabIndex = 0;
             this.pbCerrar.TabStop = false;
@@ -229,21 +216,19 @@
             // lbFocus
             // 
             this.lbFocus.AutoSize = true;
-            this.lbFocus.Location = new System.Drawing.Point(9, 5);
-            this.lbFocus.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.lbFocus.Location = new System.Drawing.Point(7, 4);
             this.lbFocus.Name = "lbFocus";
-            this.lbFocus.Size = new System.Drawing.Size(0, 16);
+            this.lbFocus.Size = new System.Drawing.Size(0, 13);
             this.lbFocus.TabIndex = 2;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(951, 389);
+            this.ClientSize = new System.Drawing.Size(713, 316);
             this.Controls.Add(this.pBlanco);
             this.Controls.Add(this.pVerde);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
