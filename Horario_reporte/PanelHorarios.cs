@@ -45,5 +45,25 @@ namespace Horario_reporte
             Ventana_Horario horario = new Ventana_Horario();
             horario.Show();
         }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconcerrar_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void iconminimizar_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private void iconrestaurar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

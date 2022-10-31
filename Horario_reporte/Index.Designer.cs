@@ -62,7 +62,7 @@
             // 
             // MenuVertical
             // 
-            this.MenuVertical.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.MenuVertical.BackColor = System.Drawing.Color.SeaGreen;
             this.MenuVertical.Controls.Add(this.pbLogo);
             this.MenuVertical.Controls.Add(this.lbluser);
             this.MenuVertical.Controls.Add(this.lblusuario);
@@ -75,16 +75,17 @@
             this.MenuVertical.Dock = System.Windows.Forms.DockStyle.Left;
             this.MenuVertical.Location = new System.Drawing.Point(0, 0);
             this.MenuVertical.Name = "MenuVertical";
-            this.MenuVertical.Size = new System.Drawing.Size(220, 588);
+            this.MenuVertical.Size = new System.Drawing.Size(203, 588);
             this.MenuVertical.TabIndex = 1;
+            this.MenuVertical.Paint += new System.Windows.Forms.PaintEventHandler(this.MenuVertical_Paint);
             // 
             // pbLogo
             // 
             this.pbLogo.BackColor = System.Drawing.Color.Transparent;
             this.pbLogo.Image = ((System.Drawing.Image)(resources.GetObject("pbLogo.Image")));
-            this.pbLogo.Location = new System.Drawing.Point(1, 1);
+            this.pbLogo.Location = new System.Drawing.Point(1, 0);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(110, 92);
+            this.pbLogo.Size = new System.Drawing.Size(105, 105);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 18;
             this.pbLogo.TabStop = false;
@@ -96,7 +97,7 @@
             this.lbluser.AutoSize = true;
             this.lbluser.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lbluser.ForeColor = System.Drawing.Color.White;
-            this.lbluser.Location = new System.Drawing.Point(114, 9);
+            this.lbluser.Location = new System.Drawing.Point(112, 9);
             this.lbluser.Name = "lbluser";
             this.lbluser.Size = new System.Drawing.Size(54, 17);
             this.lbluser.TabIndex = 17;
@@ -108,7 +109,7 @@
             this.lblusuario.AutoSize = true;
             this.lblusuario.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblusuario.ForeColor = System.Drawing.Color.White;
-            this.lblusuario.Location = new System.Drawing.Point(114, 28);
+            this.lblusuario.Location = new System.Drawing.Point(112, 28);
             this.lblusuario.Name = "lblusuario";
             this.lblusuario.Size = new System.Drawing.Size(50, 17);
             this.lblusuario.TabIndex = 16;
@@ -123,7 +124,7 @@
             this.button6.ForeColor = System.Drawing.Color.White;
             this.button6.Image = ((System.Drawing.Image)(resources.GetObject("button6.Image")));
             this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(0, 328);
+            this.button6.Location = new System.Drawing.Point(0, 536);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(250, 40);
             this.button6.TabIndex = 6;
@@ -139,7 +140,7 @@
             this.button5.ForeColor = System.Drawing.Color.White;
             this.button5.Image = ((System.Drawing.Image)(resources.GetObject("button5.Image")));
             this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(0, 282);
+            this.button5.Location = new System.Drawing.Point(0, 314);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(250, 40);
             this.button5.TabIndex = 5;
@@ -155,7 +156,7 @@
             this.button4.ForeColor = System.Drawing.Color.White;
             this.button4.Image = ((System.Drawing.Image)(resources.GetObject("button4.Image")));
             this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(0, 236);
+            this.button4.Location = new System.Drawing.Point(0, 268);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(250, 40);
             this.button4.TabIndex = 4;
@@ -171,7 +172,7 @@
             this.button3.ForeColor = System.Drawing.Color.White;
             this.button3.Image = ((System.Drawing.Image)(resources.GetObject("button3.Image")));
             this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(0, 190);
+            this.button3.Location = new System.Drawing.Point(0, 222);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(250, 40);
             this.button3.TabIndex = 3;
@@ -187,7 +188,7 @@
             this.button2.ForeColor = System.Drawing.Color.White;
             this.button2.Image = ((System.Drawing.Image)(resources.GetObject("button2.Image")));
             this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(0, 144);
+            this.button2.Location = new System.Drawing.Point(0, 176);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(250, 40);
             this.button2.TabIndex = 2;
@@ -203,7 +204,7 @@
             this.btnprod.ForeColor = System.Drawing.Color.White;
             this.btnprod.Image = ((System.Drawing.Image)(resources.GetObject("btnprod.Image")));
             this.btnprod.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnprod.Location = new System.Drawing.Point(0, 98);
+            this.btnprod.Location = new System.Drawing.Point(0, 130);
             this.btnprod.Name = "btnprod";
             this.btnprod.Size = new System.Drawing.Size(250, 40);
             this.btnprod.TabIndex = 1;
@@ -212,7 +213,7 @@
             // 
             // BarraTitulo
             // 
-            this.BarraTitulo.BackColor = System.Drawing.Color.Silver;
+            this.BarraTitulo.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.BarraTitulo.Controls.Add(this.lblFecha);
             this.BarraTitulo.Controls.Add(this.lblhora);
             this.BarraTitulo.Controls.Add(this.iconminimizar);
@@ -221,9 +222,9 @@
             this.BarraTitulo.Controls.Add(this.iconcerrar);
             this.BarraTitulo.Controls.Add(this.btnMenu);
             this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BarraTitulo.Location = new System.Drawing.Point(220, 0);
+            this.BarraTitulo.Location = new System.Drawing.Point(203, 0);
             this.BarraTitulo.Name = "BarraTitulo";
-            this.BarraTitulo.Size = new System.Drawing.Size(771, 45);
+            this.BarraTitulo.Size = new System.Drawing.Size(788, 45);
             this.BarraTitulo.TabIndex = 2;
             // 
             // lblFecha
@@ -255,7 +256,7 @@
             this.iconminimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconminimizar.Image = ((System.Drawing.Image)(resources.GetObject("iconminimizar.Image")));
-            this.iconminimizar.Location = new System.Drawing.Point(690, 5);
+            this.iconminimizar.Location = new System.Drawing.Point(707, 5);
             this.iconminimizar.Name = "iconminimizar";
             this.iconminimizar.Size = new System.Drawing.Size(18, 18);
             this.iconminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -268,20 +269,21 @@
             this.iconrestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconrestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconrestaurar.Image = ((System.Drawing.Image)(resources.GetObject("iconrestaurar.Image")));
-            this.iconrestaurar.Location = new System.Drawing.Point(716, 5);
+            this.iconrestaurar.Location = new System.Drawing.Point(733, 5);
             this.iconrestaurar.Name = "iconrestaurar";
             this.iconrestaurar.Size = new System.Drawing.Size(18, 18);
             this.iconrestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.iconrestaurar.TabIndex = 3;
             this.iconrestaurar.TabStop = false;
             this.iconrestaurar.Visible = false;
+            this.iconrestaurar.Click += new System.EventHandler(this.iconrestaurar_Click);
             // 
             // iconmaximizar
             // 
             this.iconmaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconmaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconmaximizar.Image = ((System.Drawing.Image)(resources.GetObject("iconmaximizar.Image")));
-            this.iconmaximizar.Location = new System.Drawing.Point(716, 5);
+            this.iconmaximizar.Location = new System.Drawing.Point(733, 5);
             this.iconmaximizar.Name = "iconmaximizar";
             this.iconmaximizar.Size = new System.Drawing.Size(18, 18);
             this.iconmaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -293,7 +295,7 @@
             this.iconcerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.iconcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.iconcerrar.Image = ((System.Drawing.Image)(resources.GetObject("iconcerrar.Image")));
-            this.iconcerrar.Location = new System.Drawing.Point(742, 5);
+            this.iconcerrar.Location = new System.Drawing.Point(759, 5);
             this.iconcerrar.Name = "iconcerrar";
             this.iconcerrar.Size = new System.Drawing.Size(18, 18);
             this.iconcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -322,9 +324,9 @@
             // 
             this.pnlVentana.BackColor = System.Drawing.SystemColors.Control;
             this.pnlVentana.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlVentana.Location = new System.Drawing.Point(220, 45);
+            this.pnlVentana.Location = new System.Drawing.Point(203, 45);
             this.pnlVentana.Name = "pnlVentana";
-            this.pnlVentana.Size = new System.Drawing.Size(771, 543);
+            this.pnlVentana.Size = new System.Drawing.Size(788, 543);
             this.pnlVentana.TabIndex = 3;
             // 
             // Index

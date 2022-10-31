@@ -47,3 +47,16 @@ C:\Users\Wendy\source\repos\Menu\GUI_V_2\obj\Debug\GUI_V_2.csproj.GenerateResour
 C:\Users\Wendy\source\repos\Menu\GUI_V_2\obj\Debug\GUI_V_2.csproj.CoreCompileInputs.cache
 C:\Users\Wendy\source\repos\Menu\GUI_V_2\obj\Debug\GUI_V_2.exe
 C:\Users\Wendy\source\repos\Menu\GUI_V_2\obj\Debug\GUI_V_2.pdb
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\bin\Debug\GUI_V_2.exe.config
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\bin\Debug\GUI_V_2.exe
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\bin\Debug\GUI_V_2.pdb
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\obj\Debug\GUI_V_2.csproj.AssemblyReference.cache
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\obj\Debug\GUI_V_2.csproj.SuggestedBindingRedirects.cache
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\obj\Debug\GUI_V_2.Form1.resources
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\obj\Debug\GUI_V_2.InicioResumen.resources
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\obj\Debug\GUI_V_2.Productos.resources
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\obj\Debug\GUI_V_2.Properties.Resources.resources
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\obj\Debug\GUI_V_2.csproj.GenerateResource.cache
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\obj\Debug\GUI_V_2.csproj.CoreCompileInputs.cache
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\obj\Debug\GUI_V_2.exe
+C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Menu\GUI_V_2\obj\Debug\GUI_V_2.pdb

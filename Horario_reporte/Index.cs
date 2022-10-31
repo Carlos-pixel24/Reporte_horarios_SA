@@ -38,17 +38,17 @@ namespace Horario_reporte
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            if (MenuVertical.Width == 220)
+            if (MenuVertical.Width == 205)
             {
                 MenuVertical.Width = 70;
             }
             else
-                MenuVertical.Width = 220;
+                MenuVertical.Width = 205;
 
             if (pbLogo.Width == 110)
             {
                 pbLogo.Width = 70;
-                pbLogo.Height = 70;
+                pbLogo.Height = 130;
             }
             else
                 pbLogo.Width = 110;
@@ -70,6 +70,16 @@ namespace Horario_reporte
         private void pbLogo_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new PanelMenu());
+        }
+
+        private void MenuVertical_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void iconrestaurar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

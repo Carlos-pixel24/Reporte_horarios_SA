@@ -19,12 +19,12 @@ namespace GUI_V_2
         }
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            if (MenuVertical.Width == 250)
+            if (MenuVertical.Width == 300)
             {
                 MenuVertical.Width = 70;
             }
             else
-                MenuVertical.Width = 250;
+                MenuVertical.Width = 300;
         }
 
         private void iconcerrar_Click(object sender, EventArgs e)
