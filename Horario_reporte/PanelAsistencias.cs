@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Horario_reporte
 {
-    public partial class PanelExportarImportar : Form
+    public partial class PanelAsistencias : Form
     {
-        public PanelExportarImportar()
+        public PanelAsistencias()
         {
             InitializeComponent();
         }

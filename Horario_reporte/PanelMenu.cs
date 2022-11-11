@@ -29,7 +29,7 @@ namespace Horario_reporte
             fh.Show();
         }
 
-        private void panel10_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e)
         {
             AbrirFormEnPanel(new PanelHorarios());
             panel2.Hide();
@@ -40,6 +40,15 @@ namespace Horario_reporte
             panel13.Hide();
         }
 
-
+        private void label5_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new PanelAsistencias());
+            panel2.Hide();
+            panel3.Hide();
+            panel5.Hide();
+            panel7.Hide();
+            panel11.Hide();
+            panel13.Hide();
+        }
     }
 }
