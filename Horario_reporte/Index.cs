@@ -38,21 +38,19 @@ namespace Horario_reporte
 
         private void btnMenu_Click(object sender, EventArgs e)
         {
-            if (MenuVertical.Width == 205)
+            if (MenuVertical.Width == 203)
             {
                 MenuVertical.Width = 70;
             }
             else
-                MenuVertical.Width = 205;
+                MenuVertical.Width = 203;
 
-            if (pbLogo.Width == 110)
+            if (pbLogo.Width == 105)
             {
                 pbLogo.Width = 70;
-                pbLogo.Height = 130;
             }
             else
-                pbLogo.Width = 110;
-                pbLogo.Height = 90;
+                pbLogo.Width = 105;
         }
 
 
