@@ -16,5 +16,24 @@ namespace Horario_reporte
         {
             InitializeComponent();
         }
+
+        private void txtBuscador_Enter(object sender, EventArgs e)
+        {
+            if (txtBuscador.Text == "Buscador...")
+            {
+                txtBuscador.Text = "";
+                //txtBuscador.UseSystemPasswordChar = true;
+                
+            }
+        }
+
+        private void txtBuscador_Leave(object sender, EventArgs e)
+        {
+            if (txtBuscador.Text == "")
+            {
+                txtBuscador.Text = "Buscador...";
+                //txtBuscador.UseSystemPasswordChar = false;
+            }
+        }
     }
 }

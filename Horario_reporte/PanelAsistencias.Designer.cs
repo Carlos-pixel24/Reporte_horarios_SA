@@ -35,23 +35,15 @@
             this.button3 = new System.Windows.Forms.Button();
             this.btnNuevo = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
-            this.txtBuscador = new UIDC.UI_TextBox();
             this.BarraTitulo = new System.Windows.Forms.Panel();
-            this.iconminimizar = new System.Windows.Forms.PictureBox();
-            this.iconrestaurar = new System.Windows.Forms.PictureBox();
-            this.iconmaximizar = new System.Windows.Forms.PictureBox();
-            this.iconcerrar = new System.Windows.Forms.PictureBox();
             this.lbBienvenido = new System.Windows.Forms.Label();
             this.btnEliminar = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.txtBuscador = new UIDC.UI_TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.BarraTitulo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconrestaurar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconmaximizar)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
@@ -134,87 +126,15 @@
             this.listBox1.Size = new System.Drawing.Size(547, 342);
             this.listBox1.TabIndex = 23;
             // 
-            // txtBuscador
-            // 
-            this.txtBuscador.BackColor = System.Drawing.Color.Transparent;
-            this.txtBuscador.BackgroundColour = System.Drawing.Color.White;
-            this.txtBuscador.BorderColour = System.Drawing.Color.SeaGreen;
-            this.txtBuscador.BorderSize = 3;
-            this.txtBuscador.Location = new System.Drawing.Point(9, 61);
-            this.txtBuscador.MaxLength = 32767;
-            this.txtBuscador.Multiline = false;
-            this.txtBuscador.Name = "txtBuscador";
-            this.txtBuscador.ReadOnly = false;
-            this.txtBuscador.Size = new System.Drawing.Size(547, 29);
-            this.txtBuscador.StyleBorder = UIDC.UI_TextBox.Styles.NotBorderRounded;
-            this.txtBuscador.TabIndex = 22;
-            this.txtBuscador.Text = "Buscador...";
-            this.txtBuscador.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtBuscador.TextColour = System.Drawing.Color.DarkGreen;
-            this.txtBuscador.UseSystemPasswordChar = false;
-            // 
             // BarraTitulo
             // 
             this.BarraTitulo.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.BarraTitulo.Controls.Add(this.iconminimizar);
-            this.BarraTitulo.Controls.Add(this.iconrestaurar);
-            this.BarraTitulo.Controls.Add(this.iconmaximizar);
-            this.BarraTitulo.Controls.Add(this.iconcerrar);
             this.BarraTitulo.Controls.Add(this.lbBienvenido);
             this.BarraTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.BarraTitulo.Location = new System.Drawing.Point(0, 0);
             this.BarraTitulo.Name = "BarraTitulo";
             this.BarraTitulo.Size = new System.Drawing.Size(800, 45);
             this.BarraTitulo.TabIndex = 32;
-            // 
-            // iconminimizar
-            // 
-            this.iconminimizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconminimizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconminimizar.Image = ((System.Drawing.Image)(resources.GetObject("iconminimizar.Image")));
-            this.iconminimizar.Location = new System.Drawing.Point(719, 5);
-            this.iconminimizar.Name = "iconminimizar";
-            this.iconminimizar.Size = new System.Drawing.Size(18, 18);
-            this.iconminimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconminimizar.TabIndex = 4;
-            this.iconminimizar.TabStop = false;
-            // 
-            // iconrestaurar
-            // 
-            this.iconrestaurar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconrestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconrestaurar.Image = ((System.Drawing.Image)(resources.GetObject("iconrestaurar.Image")));
-            this.iconrestaurar.Location = new System.Drawing.Point(745, 5);
-            this.iconrestaurar.Name = "iconrestaurar";
-            this.iconrestaurar.Size = new System.Drawing.Size(18, 18);
-            this.iconrestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconrestaurar.TabIndex = 3;
-            this.iconrestaurar.TabStop = false;
-            this.iconrestaurar.Visible = false;
-            // 
-            // iconmaximizar
-            // 
-            this.iconmaximizar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconmaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconmaximizar.Image = ((System.Drawing.Image)(resources.GetObject("iconmaximizar.Image")));
-            this.iconmaximizar.Location = new System.Drawing.Point(745, 5);
-            this.iconmaximizar.Name = "iconmaximizar";
-            this.iconmaximizar.Size = new System.Drawing.Size(18, 18);
-            this.iconmaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconmaximizar.TabIndex = 2;
-            this.iconmaximizar.TabStop = false;
-            // 
-            // iconcerrar
-            // 
-            this.iconcerrar.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.iconcerrar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconcerrar.Image = ((System.Drawing.Image)(resources.GetObject("iconcerrar.Image")));
-            this.iconcerrar.Location = new System.Drawing.Point(771, 5);
-            this.iconcerrar.Name = "iconcerrar";
-            this.iconcerrar.Size = new System.Drawing.Size(18, 18);
-            this.iconcerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.iconcerrar.TabIndex = 1;
-            this.iconcerrar.TabStop = false;
             // 
             // lbBienvenido
             // 
@@ -265,11 +185,33 @@
             this.pictureBox3.TabIndex = 34;
             this.pictureBox3.TabStop = false;
             // 
+            // txtBuscador
+            // 
+            this.txtBuscador.BackColor = System.Drawing.Color.Transparent;
+            this.txtBuscador.BackgroundColour = System.Drawing.Color.White;
+            this.txtBuscador.BorderColour = System.Drawing.Color.DarkGreen;
+            this.txtBuscador.BorderSize = 3;
+            this.txtBuscador.Location = new System.Drawing.Point(9, 61);
+            this.txtBuscador.MaxLength = 32767;
+            this.txtBuscador.Multiline = false;
+            this.txtBuscador.Name = "txtBuscador";
+            this.txtBuscador.ReadOnly = false;
+            this.txtBuscador.Size = new System.Drawing.Size(547, 29);
+            this.txtBuscador.StyleBorder = UIDC.UI_TextBox.Styles.NotBorderRounded;
+            this.txtBuscador.TabIndex = 35;
+            this.txtBuscador.Text = "Buscador...";
+            this.txtBuscador.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtBuscador.TextColour = System.Drawing.Color.DarkGreen;
+            this.txtBuscador.UseSystemPasswordChar = false;
+            this.txtBuscador.Enter += new System.EventHandler(this.txtBuscador_Enter);
+            this.txtBuscador.Leave += new System.EventHandler(this.txtBuscador_Leave);
+            // 
             // PanelAsistencias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtBuscador);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox4);
@@ -279,7 +221,6 @@
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.btnNuevo);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.txtBuscador);
             this.Controls.Add(this.BarraTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "PanelAsistencias";
@@ -288,10 +229,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.BarraTitulo.ResumeLayout(false);
             this.BarraTitulo.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.iconminimizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconrestaurar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconmaximizar)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.iconcerrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
@@ -306,15 +243,11 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button btnNuevo;
         private System.Windows.Forms.ListBox listBox1;
-        private UIDC.UI_TextBox txtBuscador;
         private System.Windows.Forms.Panel BarraTitulo;
-        private System.Windows.Forms.PictureBox iconminimizar;
-        private System.Windows.Forms.PictureBox iconrestaurar;
-        private System.Windows.Forms.PictureBox iconmaximizar;
-        private System.Windows.Forms.PictureBox iconcerrar;
         private System.Windows.Forms.Label lbBienvenido;
         private System.Windows.Forms.Button btnEliminar;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox3;
+        private UIDC.UI_TextBox txtBuscador;
     }
 }

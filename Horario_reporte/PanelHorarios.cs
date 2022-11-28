@@ -24,20 +24,12 @@ namespace Horario_reporte
 
         private void uI_TextBox1_Enter(object sender, EventArgs e)
         {
-            if (txtBuscador.Text == "Buscador...")
-            {
-                txtBuscador.Text = "";
-                txtBuscador.UseSystemPasswordChar = true;
-            }
+            
         }
 
         private void uI_TextBox1_Leave(object sender, EventArgs e)
         {
-            if (txtBuscador.Text == "")
-            {
-                txtBuscador.Text = "Buscador...";
-                txtBuscador.UseSystemPasswordChar = false;
-            }
+            
         }
 
         private void btnprod_Click(object sender, EventArgs e)
@@ -64,6 +56,24 @@ namespace Horario_reporte
         private void iconrestaurar_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void uI_TextBox1_Enter_1(object sender, EventArgs e)
+        {
+            if (txtBuscador.Text == "Buscador...")
+            {
+                txtBuscador.Text = "";
+                //txtBuscador.UseSystemPasswordChar = true;
+            }
+        }
+
+        private void uI_TextBox1_Leave_1(object sender, EventArgs e)
+        {
+            if (txtBuscador.Text == "")
+            {
+                txtBuscador.Text = "Buscador...";
+                //txtBuscador.UseSystemPasswordChar = false;
+            }
         }
     }
 }

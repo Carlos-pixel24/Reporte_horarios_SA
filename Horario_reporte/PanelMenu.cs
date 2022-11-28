@@ -36,6 +36,7 @@ namespace Horario_reporte
             panel3.Hide();
             panel5.Hide();
             panel7.Hide();
+            panel10.Hide();
             panel11.Hide();
             panel13.Hide();
         }
@@ -47,6 +48,7 @@ namespace Horario_reporte
             panel3.Hide();
             panel5.Hide();
             panel7.Hide();
+            panel10.Hide();
             panel11.Hide();
             panel13.Hide();
         }

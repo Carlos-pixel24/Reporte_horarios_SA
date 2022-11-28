@@ -39,7 +39,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label11 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label12 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
@@ -59,7 +58,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.panel7 = new System.Windows.Forms.Panel();
             this.label13 = new System.Windows.Forms.Label();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.panel8 = new System.Windows.Forms.Panel();
             this.label14 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -67,12 +65,14 @@
             this.label10 = new System.Windows.Forms.Label();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.uI_Calendar1 = new UIDC.UI_Calendar();
             this.pnlMenu.SuspendLayout();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel15.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel4.SuspendLayout();
             this.panel11.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
@@ -84,14 +84,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel9.SuspendLayout();
             this.panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             this.panel8.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             this.SuspendLayout();
             // 
             // pnlMenu
             // 
+            this.pnlMenu.Controls.Add(this.uI_Calendar1);
             this.pnlMenu.Controls.Add(this.panel10);
             this.pnlMenu.Controls.Add(this.panel3);
             this.pnlMenu.Controls.Add(this.panel11);
@@ -188,7 +190,7 @@
             // 
             this.panel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel3.Controls.Add(this.label11);
-            this.panel3.Controls.Add(this.pictureBox5);
+            this.panel3.Controls.Add(this.pictureBox2);
             this.panel3.Controls.Add(this.panel4);
             this.panel3.Location = new System.Drawing.Point(12, 180);
             this.panel3.Name = "panel3";
@@ -206,16 +208,6 @@
             this.label11.TabIndex = 16;
             this.label11.Text = "Abrir";
             // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(14, 34);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(80, 80);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            // 
             // panel4
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(68)))), ((int)(((byte)(89)))));
@@ -230,13 +222,14 @@
             // 
             this.label12.AutoSize = true;
             this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(9, 4);
+            this.label12.Location = new System.Drawing.Point(13, -5);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(89, 20);
+            this.label12.Size = new System.Drawing.Size(86, 38);
             this.label12.TabIndex = 15;
-            this.label12.Text = "Sin nombre";
+            this.label12.Text = "Reporte \r\npor carrera";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel11
             // 
@@ -284,13 +277,13 @@
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Century Gothic", 10F);
             this.label8.ForeColor = System.Drawing.Color.White;
-            this.label8.Location = new System.Drawing.Point(3, 3);
+            this.label8.Location = new System.Drawing.Point(5, 3);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(91, 20);
+            this.label8.Size = new System.Drawing.Size(94, 19);
             this.label8.TabIndex = 15;
-            this.label8.Text = "Sin Nombre";
+            this.label8.Text = "Justificacion";
             // 
             // panel13
             // 
@@ -405,8 +398,8 @@
             // panel7
             // 
             this.panel7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel7.Controls.Add(this.pictureBox9);
             this.panel7.Controls.Add(this.label13);
-            this.panel7.Controls.Add(this.pictureBox8);
             this.panel7.Controls.Add(this.panel8);
             this.panel7.Location = new System.Drawing.Point(156, 180);
             this.panel7.Name = "panel7";
@@ -423,16 +416,6 @@
             this.label13.Size = new System.Drawing.Size(43, 20);
             this.label13.TabIndex = 16;
             this.label13.Text = "Abrir";
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(14, 34);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(80, 80);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 5;
-            this.pictureBox8.TabStop = false;
             // 
             // panel8
             // 
@@ -510,6 +493,71 @@
             this.panel6.Size = new System.Drawing.Size(108, 30);
             this.panel6.TabIndex = 0;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(13, 36);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(80, 80);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 17;
+            this.pictureBox2.TabStop = false;
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox9.Image")));
+            this.pictureBox9.Location = new System.Drawing.Point(15, 36);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(80, 80);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 17;
+            this.pictureBox9.TabStop = false;
+            // 
+            // uI_Calendar1
+            // 
+            this.uI_Calendar1.BackColor = System.Drawing.Color.White;
+            this.uI_Calendar1.ButtonCollapse = true;
+            this.uI_Calendar1.ButtonDay = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.uI_Calendar1.ButtonDayFont = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.uI_Calendar1.ButtonDownColor = System.Drawing.Color.WhiteSmoke;
+            this.uI_Calendar1.ButtonOverColor = System.Drawing.Color.WhiteSmoke;
+            this.uI_Calendar1.ButtonTextFormat = true;
+            this.uI_Calendar1.DayFont = new System.Drawing.Font("Arial Rounded MT Bold", 65F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.uI_Calendar1.DayForeColor = System.Drawing.Color.Green;
+            this.uI_Calendar1.DayFormat = UIDC.UI_Calendar.DiaLetra.Abbreviation;
+            this.uI_Calendar1.DayMonthFollowForeColor = System.Drawing.Color.Gray;
+            this.uI_Calendar1.DayMonthForeColor = System.Drawing.Color.Green;
+            this.uI_Calendar1.DayMonthPassedForeColor = System.Drawing.Color.Gray;
+            this.uI_Calendar1.DaySemanaFont = new System.Drawing.Font("Arial", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.uI_Calendar1.DaysForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.uI_Calendar1.DayWeekForeColor = System.Drawing.Color.Green;
+            this.uI_Calendar1.ElipceSize = 5;
+            this.uI_Calendar1.HourFont = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.uI_Calendar1.Location = new System.Drawing.Point(435, 12);
+            this.uI_Calendar1.MonthFont = new System.Drawing.Font("Arial Rounded MT Bold", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.uI_Calendar1.MonthForeColor = System.Drawing.Color.Green;
+            this.uI_Calendar1.MoveCalendar = true;
+            this.uI_Calendar1.Name = "uI_Calendar1";
+            this.uI_Calendar1.PanelBottonBackColor = System.Drawing.Color.White;
+            this.uI_Calendar1.PanelDateBackColor = System.Drawing.Color.White;
+            this.uI_Calendar1.PanelDateHeight = 100;
+            this.uI_Calendar1.PanelDayBackColor = System.Drawing.Color.White;
+            this.uI_Calendar1.PanelLowerBackColor = System.Drawing.Color.White;
+            this.uI_Calendar1.SemanaFont = new System.Drawing.Font("Arial", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.uI_Calendar1.Size = new System.Drawing.Size(350, 490);
+            this.uI_Calendar1.TabIndex = 51;
+            this.uI_Calendar1.Text = "uI_Calendar1";
+            this.uI_Calendar1.TimeForeColor = System.Drawing.Color.Green;
+            this.uI_Calendar1.TitleBackColor = System.Drawing.Color.Green;
+            this.uI_Calendar1.TitleFont = new System.Drawing.Font("Arial Rounded MT Bold", 17F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.uI_Calendar1.TitleForeColor = System.Drawing.Color.White;
+            this.uI_Calendar1.TitleFormat = UIDC.UI_Calendar.TextHora.Text;
+            this.uI_Calendar1.TitleHeight = 40;
+            this.uI_Calendar1.TitleText = "Calendario";
+            this.uI_Calendar1.TitleVisible = true;
+            this.uI_Calendar1.YearFont = new System.Drawing.Font("Arial Rounded MT Bold", 35F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.uI_Calendar1.YearForeColor = System.Drawing.Color.Green;
+            // 
             // PanelMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -527,7 +575,6 @@
             this.panel15.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             this.panel11.ResumeLayout(false);
@@ -547,12 +594,13 @@
             this.panel9.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -570,7 +618,6 @@
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Label label7;
@@ -590,12 +637,14 @@
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.PictureBox pictureBox8;
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Panel panel6;
+        private System.Windows.Forms.PictureBox pictureBox2;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private UIDC.UI_Calendar uI_Calendar1;
     }
 }

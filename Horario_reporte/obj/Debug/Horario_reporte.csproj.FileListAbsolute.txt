@@ -55,3 +55,4 @@ C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Horario_reporte\obj\Debug\Ho
 C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.pdb
 C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.PanelAsistencias.resources
+C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.PanelUsuarios.resources

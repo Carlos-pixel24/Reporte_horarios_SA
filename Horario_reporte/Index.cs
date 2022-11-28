@@ -79,5 +79,20 @@ namespace Horario_reporte
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AbrirFormEnPanel(new PanelUsuarios());
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Se ha cerrado sesion correctamente.");
+
+            Form1 login = new Form1();
+            login.Show();
+
+            this.Hide();
+        }
     }
 }
