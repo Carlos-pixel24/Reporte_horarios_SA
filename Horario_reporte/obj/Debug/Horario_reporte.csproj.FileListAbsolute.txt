@@ -55,4 +55,28 @@ C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Horario_reporte\obj\Debug\Ho
 C:\Users\Wendy\Documents\GitHub\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.pdb
 C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\bin\Debug\System.Numerics.Vectors.dll
 C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.PanelAsistencias.resources
+<<<<<<< Updated upstream
 C:\Users\DELL\AndroidStudioProjects\Github\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.PanelUsuarios.resources
+=======
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\bin\Debug\Horario_reporte.exe.config
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\bin\Debug\Horario_reporte.exe
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\bin\Debug\Horario_reporte.pdb
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\bin\Debug\System.Memory.dll
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\bin\Debug\System.Buffers.dll
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.csproj.AssemblyReference.cache
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.csproj.SuggestedBindingRedirects.cache
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.Form1.resources
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.PanelAsistencias.resources
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.PanelHorarios.resources
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.Index.resources
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.PanelMenu.resources
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.Properties.Resources.resources
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.Ventana_Horario.resources
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.csproj.GenerateResource.cache
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.csproj.CoreCompileInputs.cache
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.csproj.CopyComplete
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.exe
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.pdb
+>>>>>>> Stashed changes
+C:\Users\edgar\Desktop\trabajos de la uni\10mo Cuatrimestre\Gestion del proceso de desarrollo de software\Reporte_horarios_SA\Horario_reporte\obj\Debug\Horario_reporte.PanelUsuarios.resources

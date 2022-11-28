@@ -41,10 +41,10 @@
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
+            this.BTNeliminar = new System.Windows.Forms.Button();
+            this.BTNeditar = new System.Windows.Forms.Button();
+            this.BTNregistrar = new System.Windows.Forms.Button();
+            this.BTNbuscar = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.BarraTitulo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -241,69 +241,73 @@
             this.button4.Text = "Exportar";
             this.button4.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // BTNeliminar
             // 
-            this.button5.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(397, 175);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(211, 40);
-            this.button5.TabIndex = 45;
-            this.button5.Text = "Eliminar";
-            this.button5.UseVisualStyleBackColor = false;
+            this.BTNeliminar.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BTNeliminar.FlatAppearance.BorderSize = 0;
+            this.BTNeliminar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.BTNeliminar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNeliminar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNeliminar.ForeColor = System.Drawing.Color.White;
+            this.BTNeliminar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNeliminar.Location = new System.Drawing.Point(397, 175);
+            this.BTNeliminar.Name = "BTNeliminar";
+            this.BTNeliminar.Size = new System.Drawing.Size(211, 40);
+            this.BTNeliminar.TabIndex = 45;
+            this.BTNeliminar.Text = "Eliminar";
+            this.BTNeliminar.UseVisualStyleBackColor = false;
+            this.BTNeliminar.Click += new System.EventHandler(this.BTNeliminar_Click);
             // 
-            // button6
+            // BTNeditar
             // 
-            this.button6.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button6.Location = new System.Drawing.Point(397, 129);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(211, 40);
-            this.button6.TabIndex = 44;
-            this.button6.Text = "Editar";
-            this.button6.UseVisualStyleBackColor = false;
+            this.BTNeditar.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BTNeditar.FlatAppearance.BorderSize = 0;
+            this.BTNeditar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.BTNeditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNeditar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNeditar.ForeColor = System.Drawing.Color.White;
+            this.BTNeditar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNeditar.Location = new System.Drawing.Point(397, 129);
+            this.BTNeditar.Name = "BTNeditar";
+            this.BTNeditar.Size = new System.Drawing.Size(211, 40);
+            this.BTNeditar.TabIndex = 44;
+            this.BTNeditar.Text = "Editar";
+            this.BTNeditar.UseVisualStyleBackColor = false;
+            this.BTNeditar.Click += new System.EventHandler(this.BTNeditar_Click);
             // 
-            // button7
+            // BTNregistrar
             // 
-            this.button7.BackColor = System.Drawing.Color.DarkSeaGreen;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button7.Location = new System.Drawing.Point(397, 83);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(211, 40);
-            this.button7.TabIndex = 43;
-            this.button7.Text = "Nuevo";
-            this.button7.UseVisualStyleBackColor = false;
+            this.BTNregistrar.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.BTNregistrar.FlatAppearance.BorderSize = 0;
+            this.BTNregistrar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.BTNregistrar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNregistrar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNregistrar.ForeColor = System.Drawing.Color.White;
+            this.BTNregistrar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNregistrar.Location = new System.Drawing.Point(397, 83);
+            this.BTNregistrar.Name = "BTNregistrar";
+            this.BTNregistrar.Size = new System.Drawing.Size(211, 40);
+            this.BTNregistrar.TabIndex = 43;
+            this.BTNregistrar.Text = "Registrar";
+            this.BTNregistrar.UseVisualStyleBackColor = false;
+            this.BTNregistrar.Click += new System.EventHandler(this.BTNregistrar_Click);
             // 
-            // button1
+            // BTNbuscar
             // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(397, 221);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(211, 40);
-            this.button1.TabIndex = 51;
-            this.button1.Text = "Buscar";
-            this.button1.UseVisualStyleBackColor = false;
+            this.BTNbuscar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.BTNbuscar.FlatAppearance.BorderSize = 0;
+            this.BTNbuscar.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.BTNbuscar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BTNbuscar.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BTNbuscar.ForeColor = System.Drawing.Color.White;
+            this.BTNbuscar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BTNbuscar.Location = new System.Drawing.Point(397, 221);
+            this.BTNbuscar.Name = "BTNbuscar";
+            this.BTNbuscar.Size = new System.Drawing.Size(211, 40);
+            this.BTNbuscar.TabIndex = 51;
+            this.BTNbuscar.Text = "Buscar";
+            this.BTNbuscar.UseVisualStyleBackColor = false;
+            this.BTNbuscar.Click += new System.EventHandler(this.BTNbuscar_Click);
             // 
             // pictureBox5
             // 
@@ -322,15 +326,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.BTNbuscar);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button7);
+            this.Controls.Add(this.BTNeliminar);
+            this.Controls.Add(this.BTNeditar);
+            this.Controls.Add(this.BTNregistrar);
             this.Controls.Add(this.txtContra);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.txtCargo);
@@ -365,10 +369,10 @@
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button BTNeliminar;
+        private System.Windows.Forms.Button BTNeditar;
+        private System.Windows.Forms.Button BTNregistrar;
+        private System.Windows.Forms.Button BTNbuscar;
         private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

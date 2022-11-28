@@ -39,5 +39,23 @@ namespace Horario_reporte.Clases
 
             return conex;
         }
+        public static MySqlConnection conexion() {
+
+            
+
+            string cadena_conexion = "server="
+            + server + ";" + "user=" + user + ";" + "pwd=" 
+            + password + ";" + "database=" + bd + ";";
+
+            try { 
+
+        MySqlConnection conexion_DB = new MySqlConnection(cadena_conexion);
+                return conexion_DB;
+
+            }
+            catch (MySqlException e) {
+                return null;
+            }
+        }
     }
 }

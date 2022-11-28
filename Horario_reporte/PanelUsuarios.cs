@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Horario_reporte
 {
     public partial class PanelUsuarios : Form
     {
+        String idusuario;
         public PanelUsuarios()
         {
             InitializeComponent();
@@ -99,6 +101,157 @@ namespace Horario_reporte
             if (txtContra.Text == "")
             {
                 txtContra.Text = "Contraseña Asignada...";
+            }
+        }
+
+        private void BTNregistrar_Click(object sender, EventArgs e)
+        {
+            string Nombre = txtNombre.Text;
+            string Apellido = txtApellido.Text;
+            string Cargo = txtCargo.Text;
+            string Usuario = txtUsuario.Text;
+            string Contraseña = txtContra.Text;
+
+            String Query = "INSERT INTO Usuarios (Nombre,Apellido,Cargo,usuario,contraseña) Values" +
+                "('"+Nombre+"','"+Apellido+"','"+Cargo+"','"+Usuario+"','"+Contraseña+"')";
+
+            MySqlConnection conexion_DB = Clases.CN.conexion();
+            conexion_DB.Open();
+
+            try
+            {
+
+                MySqlCommand com = new MySqlCommand(Query, conexion_DB);
+                com.ExecuteNonQuery();
+
+                MessageBox.Show("USUARIO REGISTRADO CON EXITO");
+                txtContra.Text = "Contraseña Asignada...";
+                txtNombre.Text = "Nombre...";
+                txtApellido.Text = "Apellido...";
+                txtUsuario.Text = "Usuarios...";
+                txtCargo.Text = "Cargo...";
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERROR: " + ex);
+
+            }
+
+            finally {
+                conexion_DB.Close();
+            }
+        }
+
+        private void BTNbuscar_Click(object sender, EventArgs e)
+        {
+            String usuario = txtUsuario.Text;
+            MySqlDataReader reader = null;
+
+            String query_busqueda = "Select IDusuario,Nombre,Apellido,Cargo,contraseña from Usuarios where " +
+                "usuario LIKE '"+usuario+"'LIMIT 1";
+
+            MySqlConnection conexion_DB = Clases.CN.conexion();
+            conexion_DB.Open();
+
+
+            try
+            {
+
+                MySqlCommand com = new MySqlCommand(query_busqueda, conexion_DB);
+                reader = com.ExecuteReader();
+
+                if (reader.HasRows) { 
+
+                while (reader.Read())
+                {
+                        idusuario = reader.GetString(0);
+                        txtNombre.Text = reader.GetString(1);
+                        txtApellido.Text = reader.GetString(2);
+                        txtCargo.Text = reader.GetString(3);
+                        txtContra.Text = reader.GetString(4);
+                       
+                    }
+
+                }
+                else
+                {
+                    MessageBox.Show("NO SE ENCONTRO NINGUN USUARIO CON ESTE NOMBRE");
+                }
+            } catch (Exception ex) {
+
+                MessageBox.Show("ERROR: "+ex);
+            }
+        }
+
+        private void BTNeditar_Click(object sender, EventArgs e)
+        {
+
+            string Nombre = txtNombre.Text;
+            string Apellido = txtApellido.Text;
+            string Cargo = txtCargo.Text;
+            string Usuario = txtUsuario.Text;
+            string Contraseña = txtContra.Text;
+
+            String Query_actualizar = "UPDATE Usuarios set Nombre='" + Nombre + "',Apellido='" + Apellido + "',Cargo='"
+                + Cargo + "',usuario='" + Usuario + "',contraseña='" + Contraseña + "'where IDusuario='"
+                +idusuario+"'";
+
+            MySqlConnection conexion_DB = Clases.CN.conexion();
+            conexion_DB.Open();
+
+            try
+            {
+
+                MySqlCommand com = new MySqlCommand(Query_actualizar, conexion_DB);
+                com.ExecuteNonQuery();
+
+                MessageBox.Show("SE HA ACTUALIZADO LA INFORMACION CON EXITO");
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERROR: " + ex);
+
+            }
+
+            finally
+            {
+                conexion_DB.Close();
+            }
+
+        }
+
+        private void BTNeliminar_Click(object sender, EventArgs e)
+        {
+            String Query_Borrar = "DELETE FROM Usuarios WHERE IDusuario='"+idusuario+"'";
+
+            MySqlConnection conexion_DB = Clases.CN.conexion();
+            conexion_DB.Open();
+
+            try
+            {
+
+                MySqlCommand com = new MySqlCommand(Query_Borrar, conexion_DB);
+                com.ExecuteNonQuery();
+
+                MessageBox.Show("SE HA ELIMINADO EL USUARIO CORRECTAMENTE");
+                txtContra.Text = "Contraseña Asignada...";
+                txtNombre.Text = "Nombre...";
+                txtApellido.Text = "Apellido...";
+                txtUsuario.Text = "Usuarios...";
+                txtCargo.Text = "Cargo...";
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("ERROR: " + ex);
+
+            }
+
+            finally
+            {
+                conexion_DB.Close();
             }
         }
     }
