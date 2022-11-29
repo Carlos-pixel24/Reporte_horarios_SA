@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Horario_reporte
 {
@@ -69,19 +70,44 @@ namespace Horario_reporte
         {
 
 
+            String usuario = txtUser.Text;
+            String contraseña = txtPass.Text;
+            MySqlDataReader reader = null;
+
+            String query_busqueda = "Select IDusuario from Usuarios where " +
+                "usuario='"+usuario+"' and contraseña='"+contraseña+"' LIMIT 1";
+
+            MySqlConnection conexion_DB = Clases.CN.conexion();
+            conexion_DB.Open();
 
 
-            Clases.CN objetoconexion = new Clases.CN();
-            objetoconexion.iniciarCN();
+            try
+            {
 
+                MySqlCommand com = new MySqlCommand(query_busqueda, conexion_DB);
+                reader = com.ExecuteReader();
 
-            //ESTE ES EL CODIGO PARA PASAR DE UN FORM A OTRO
-            //Y CERRAR EL ANTERIOR FORM
+                if (reader.HasRows)
+                {
 
-            Index index = new Index();
-            index.Show();
+                    Index index = new Index();
+                    index.Show();
 
-            this.Hide();
+                    this.Hide();
+
+                }
+                else
+                {
+                    MessageBox.Show("NO SE ENCONTRO NINGUN USUARIO CON ESTE NOMBRE");
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show("ERROR: " + ex);
+            }
+
+           
 
             //  NOTA
             //  ESTA TRANSICION DE LOGIN A INDEX SE DEBE DE ACITVAR
