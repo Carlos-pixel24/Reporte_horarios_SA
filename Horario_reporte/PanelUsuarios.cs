@@ -128,7 +128,7 @@ namespace Horario_reporte
                 txtContra.Text = "Contraseña Asignada...";
                 txtNombre.Text = "Nombre...";
                 txtApellido.Text = "Apellido...";
-                txtUsuario.Text = "Usuarios...";
+                txtUsuario.Text = "Usuario...";
                 txtCargo.Text = "Cargo...";
 
             }
@@ -239,7 +239,7 @@ namespace Horario_reporte
                 txtContra.Text = "Contraseña Asignada...";
                 txtNombre.Text = "Nombre...";
                 txtApellido.Text = "Apellido...";
-                txtUsuario.Text = "Usuarios...";
+                txtUsuario.Text = "Usuario...";
                 txtCargo.Text = "Cargo...";
 
             }
@@ -253,6 +253,15 @@ namespace Horario_reporte
             {
                 conexion_DB.Close();
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtContra.Text = "Contraseña Asignada...";
+            txtNombre.Text = "Nombre...";
+            txtApellido.Text = "Apellido...";
+            txtUsuario.Text = "Usuario...";
+            txtCargo.Text = "Cargo...";
         }
     }
 }
